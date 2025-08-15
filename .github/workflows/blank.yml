@@ -29,7 +29,7 @@ jobs:
     steps:
       - id: automerge
         name: automerge
-        uses: reitermarkus/automerge@v2
+        uses: juliangruber/merge-pull-request-action@v1
         with:
-          token: ${{ secrets.TOKEN }}
-          MERGE_METHOD: 'merge'
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          method: squash
