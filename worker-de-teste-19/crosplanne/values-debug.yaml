@@ -1,0 +1,17 @@
+secretsManagerEnabled: true
+s3Enabled: true 
+sesEnabled: false 
+dynamoDbEnabled: false 
+sqsEnabled: false 
+snsEnabled: false 
+
+### KUBERNETES ###
+deploymentEnabled: true 
+serviceEnabled: true 
+ingressEnabled: false 
+configMapEnabled: false 
+autoscalingEnabled: false 
+roleK8sEnabled: false 
+redisStandaloneEnabled: false 
+databaseEnabled: false 
+envFileEnabled: false 
