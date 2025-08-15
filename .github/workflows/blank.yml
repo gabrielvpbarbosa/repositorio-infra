@@ -30,6 +30,9 @@ jobs:
       - id: automerge
         name: automerge
         uses: juliangruber/merge-pull-request-action@v1
+        env:
+          PR_NUMBER: ${{ github.event.number }}
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          number: ${{ github.event.number }}
           method: squash
