@@ -6,12 +6,12 @@ sqsEnabled: false
 snsEnabled: false 
 
 ### KUBERNETES ###
-deploymentEnabled: true 
+deploymentEnabled: false 
 serviceEnabled: false 
 ingressEnabled: false 
 configMapEnabled: false 
 autoscalingEnabled: false 
 roleK8sEnabled: false 
 redisStandaloneEnabled: false 
-databaseEnabled: false 
+databaseEnabled: true 
 envFileEnabled: false 
