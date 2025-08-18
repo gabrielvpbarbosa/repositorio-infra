@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: repositorio-infra
+  annotations:
+    github.com/project-slug: gabrielvpbarbosa/repositorio-infra
+spec:
+  type: other
+  lifecycle: develop
+  owner: gabrielvpbarbosa
