@@ -7,9 +7,9 @@ snsEnabled: false
 
 ### KUBERNETES ###
 deploymentEnabled: false 
-serviceEnabled: false 
+serviceEnabled: true 
 ingressEnabled: false 
-configMapEnabled: true 
+configMapEnabled: false 
 autoscalingEnabled: false 
 roleK8sEnabled: false 
 redisStandaloneEnabled: false 
